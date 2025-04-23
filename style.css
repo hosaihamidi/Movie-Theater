@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  background: radial-gradient(circle, #000000 60%, #1a1a1a);
+  font-family: "Orbitron", sans-serif;
+  color: white;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin: 1rem;
+  color: #f5c518;
+  text-shadow: 2px 2px #000;
+}
+
+.screen-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  padding: 2rem;
+}
+
+.screen-border {
+  padding: 1rem;
+  border: 8px solid #f5c518;
+  border-radius: 20px;
+  box-shadow: 0 0 20px 10px #f5c518, 0 0 40px 15px #ff0000 inset;
+  background-color: #111;
+  max-width: 800px;
+  width: 90%;
+}
+
+.cinema-screen {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 0 15px #000;
+}
+
+.controls {
+  margin-top: 1rem;
+}
+
+.controls button {
+  margin: 0 1rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background-color: #f5c518;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.controls button:hover {
+  transform: scale(1.1);
+  background-color: #ffd700;
+}
