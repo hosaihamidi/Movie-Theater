@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hosai Cinema 🎥</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8qHu_fEGmrHvK9ti0MLQUi7Wz9TtjoxtRoA&s"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to Hosai Cinema 🎥</h1>
+    </header>
+
+    <section class="screen-wrapper">
+      <div class="screen-border">
+        <video class="cinema-screen" controls>
+          <source src="image/Moana Official Trailer.mp4" type="video/mp4" />
+        </video>
+        <div class="controls">
+          <button
+            onclick="document.querySelector('video').currentTime = 0; document.querySelector('video').play();"
+          >
+            🔁 Play Again
+          </button>
+          <button onclick="alert('⭐ You rated the movie!')">
+            ⭐ Rate Movie
+          </button>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
